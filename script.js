@@ -1,7 +1,7 @@
 console.log("hello!");
-const imie = 'Paula'
-const wiek = '21'
-const jedzenie = 'sushi'
-console.log(imie)
-console.log(wiek)
-console.log(jedzenie)
+const name = "Paula";
+const age = "21";
+const food = "sushi";
+console.log(name);
+console.log(age);
+console.log(food);
