@@ -1,7 +1,7 @@
 console.log("hello!");
 const name = "Paula";
-const age = "21";
-const food = "sushi";
-console.log(name);
-console.log(age);
-console.log(food);
+const petName = "Ruby";
+const petAge = 2;
+const favoriteFood = "sushi";
+console.log(`Czesc, jestem ${name}, a to jest ${petName} - mój królik.`);
+console.log(petName + " ma już " + petAge + " lat/a!");
