@@ -83,14 +83,33 @@
 // 	console.log("Kolory sie nie zgadzaja");
 // }
 
-/zadanie 3/;
-const x = 100;
-const y = 50;
+// /zadanie 3/;
+// const x = 100;
+// const y = 50;
 
-if (x > y) {
-	console.log(" x > y ");
-} else if (x === y) {
-	console.log(" x = y ");
-} else {
-	console.log(" x < y");
-}
+// if (x > y) {
+// 	console.log(" x > y ");
+// } else if (x === y) {
+// 	console.log(" x = y ");
+// } else {
+// 	console.log(" x < y");
+// }
+// /zadanie 4/;
+// const promo = "20%";
+
+// switch (promo) {
+// 	case "10%":
+// 		console.log("Dzis mamy 10% znizki");
+// 		break;
+
+// 	case "20%":
+// 		console.log("Dzis mamy 20% znizki");
+// 		break;
+
+// 	case "30%":
+// 		console.log("Dzis mamy 30% znizki");
+// 		break;
+
+// 	default:
+// 		console.log("Dzis mamy inna promocje");
+// }
