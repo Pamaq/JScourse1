@@ -111,5 +111,31 @@
 // 		break;
 
 // 	default:
-// 		console.log("Dzis mamy inna promocje");
+// 		console.log("Dzis mamy ${promo} znizki");
 // }
+// /zadanie 5/;
+// const x = 10;
+// const newX = x % 2 == 0 ? `parzysta` : `nieparzysta`;
+// console.log(newX);
+// /zadanie 6/;
+// const x = 50;
+
+// if (x >= 100) {
+// 	console.log(`X >= 100`);
+// } else if (x < 100 && x > 30) {
+// 	console.log("X jest sredniakiem".toUpperCase());
+// } else {
+// 	console.log("x jest maly".toUpperCase());
+// }
+/alternatywnie - lepiej/;
+const x = 50;
+let text;
+
+if (x >= 100) {
+	text = `X >= 100`;
+} else if (x < 100 && x > 30) {
+	text = "X jest sredniakiem";
+} else {
+	text = "x jest maly";
+}
+console.log(text.toUpperCase());
