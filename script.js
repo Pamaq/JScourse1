@@ -40,7 +40,7 @@ console.log(text1.toUpperCase());
 console.log(text2.toLowerCase());
 
 /3/;
-console.log(text3.slice(0, 4));
+console.log(text3.slice(6));
 
 /4/;
 const word = "czy";
@@ -55,3 +55,13 @@ console.log(text6.replaceAll("pies", "kot"));
 
 /7/;
 console.log(text7.split(",", [7]));
+
+/zadania z warunkow/;
+const pass = "!feregefgresreg";
+if (pass.length > 10 && pass.includes("!")) {
+	console.log("Haslo jest super");
+} else if (pass.lenght > 10) {
+	console.log("Haslo jest ok");
+} else {
+	console.log("Haslo jest slabe");
+}
