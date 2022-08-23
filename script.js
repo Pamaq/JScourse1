@@ -73,3 +73,12 @@ const y = 30;
 if (x > y) {
 	console.log(`${x} jest wieksze od ${y}`);
 }
+
+/zadanie 2 if else if/;
+const color = "blue";
+const newColor = "green";
+if (color == newColor) {
+	console.log("Kolory sie zgadzaja");
+} else {
+	console.log("Kolory sie nie zgadzaja");
+}
