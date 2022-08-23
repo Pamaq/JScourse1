@@ -65,3 +65,11 @@ if (pass.length > 10 && pass.includes("!")) {
 } else {
 	console.log("Haslo jest slabe");
 }
+
+/zadanie 1 if/;
+const x = 50;
+const y = 30;
+
+if (x > y) {
+	console.log(`${x} jest wieksze od ${y}`);
+}
