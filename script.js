@@ -144,8 +144,55 @@
 // for (let i = 0; i < colors.length; i++) {
 // 	console.log(colors[i]);
 // }
-/zadanie 2 z for/;
-const cities = ["London", "Paris", "Warsaw", "New York", "Barcelona"];
-for (let i = 0; i < cities.length; i++) {
-	console.log(`To miasto nazywa się ${cities[i]}`);
-}
+// /zadanie 2 z for/;
+// const cities = ["London", "Paris", "Warsaw", "New York", "Barcelona"];
+// for (let i = 0; i < cities.length; i++) {
+// 	console.log(`To miasto nazywa się ${cities[i]}`);
+// }
+// /zadanie z while/;
+// let x = 0;
+
+// while (x < 10) {
+// 	x += 2;
+// 	console.log(x);
+// }
+// /zadanie do while/;
+// let x = 20;
+// do {
+// 	x -= 3;
+// } while (x > 0);
+
+// console.log(x);
+
+// /zadanie for of/;
+// const tab1 = [5, 8, 10, 23, 48, 60];
+// let tab2 = [];
+// for (let number of tab1) {
+// 	number /= 5;
+// 	tab2.push(number);
+// 	console.log(number);
+// }
+// console.log(tab2);
+
+// console.log(`-----------------`);
+
+// for (let number of tab1) {
+// 	if (number % 2 === 0) {
+// 		console.log(`%c${number} jest parzysta`, "background-color: green");
+// 	} else {
+// 		console.log(`%c${number} jest nieparzysta`, "color: red");
+// 	}
+// }
+/zadanie z tablica 1/;
+const fruit = ["apple", "banana", "raspberry"];
+console.log(fruit);
+fruit.unshift("leechee", "kiwi");
+console.log(fruit);
+fruit.push("strawberry", "blackberry");
+console.log(fruit);
+fruit.shift();
+fruit.shift();
+console.log(fruit);
+fruit.pop();
+fruit.pop();
+console.log(fruit);
