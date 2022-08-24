@@ -127,15 +127,25 @@
 // } else {
 // 	console.log("x jest maly".toUpperCase());
 // }
-/alternatywnie - lepiej/;
-const x = 50;
-let text;
+// /alternatywnie - lepiej/;
+// const x = 50;
+// let text;
 
-if (x >= 100) {
-	text = `X >= 100`;
-} else if (x < 100 && x > 30) {
-	text = "X jest sredniakiem";
-} else {
-	text = "x jest maly";
+// if (x >= 100) {
+// 	text = `X >= 100`;
+// } else if (x < 100 && x > 30) {
+// 	text = "X jest sredniakiem";
+// } else {
+// 	text = "x jest maly";
+// }
+// console.log(text.toUpperCase());
+// /zadanie 1 z for/;
+// const colors = ["blue", "red", "green", "pink", "purple"];
+// for (let i = 0; i < colors.length; i++) {
+// 	console.log(colors[i]);
+// }
+/zadanie 2 z for/;
+const cities = ["London", "Paris", "Warsaw", "New York", "Barcelona"];
+for (let i = 0; i < cities.length; i++) {
+	console.log(`To miasto nazywa się ${cities[i]}`);
 }
-console.log(text.toUpperCase());
