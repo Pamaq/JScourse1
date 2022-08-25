@@ -183,16 +183,44 @@
 // 		console.log(`%c${number} jest nieparzysta`, "color: red");
 // 	}
 // }
-/zadanie z tablica 1/;
-const fruit = ["apple", "banana", "raspberry"];
-console.log(fruit);
-fruit.unshift("leechee", "kiwi");
-console.log(fruit);
-fruit.push("strawberry", "blackberry");
-console.log(fruit);
-fruit.shift();
-fruit.shift();
-console.log(fruit);
-fruit.pop();
-fruit.pop();
-console.log(fruit);
+// /zadanie z tablica 1/;
+// const fruit = ["apple", "banana", "raspberry"];
+// console.log(fruit);
+// fruit.unshift("leechee", "kiwi");
+// console.log(fruit);
+// fruit.push("strawberry", "blackberry");
+// console.log(fruit);
+// fruit.shift();
+// fruit.shift();
+// console.log(fruit);
+// fruit.pop();
+// fruit.pop();
+// console.log(fruit);
+// /metoda map/;
+// const numbers = [1, 2, 3, 4, 5];
+// console.log(numbers);
+// function multiply(x) {
+// 	return x * 2;
+// }
+
+// const newNumbers = numbers.map(multiply);
+// console.log(newNumbers);
+// /zadanie spread/;
+// const drinks = ["cola", "pepsi", "juice"];
+// const meals = ["spaghetti", "pizza", "sushi"];
+// const menu = [...drinks, ...meals];
+// console.log(menu);
+/zadanie slice i splice/;
+const numbers = [0, 0, 1, 1, 2, 2, 2];
+const colors = ["red", "green", "blue", true, 123];
+const cars = [123, true, "audi", "bmw", "mercedes", "ferrari", "🤷‍♂️", "👀"];
+const numbers2 = numbers.slice(0, 2);
+console.log(numbers2);
+const numbers3 = numbers.slice(4);
+console.log(numbers3);
+const randomStuff = colors.splice(3, 2);
+console.log(colors);
+console.log(randomStuff);
+const newCars = cars.splice(2, 4, "test");
+console.log(cars);
+console.log(newCars);
