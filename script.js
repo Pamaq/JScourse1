@@ -183,6 +183,7 @@
 // 		console.log(`%c${number} jest nieparzysta`, "color: red");
 // 	}
 // }
+
 // /zadanie z tablica 1/;
 // const fruit = ["apple", "banana", "raspberry"];
 // console.log(fruit);
@@ -196,6 +197,7 @@
 // fruit.pop();
 // fruit.pop();
 // console.log(fruit);
+
 // /metoda map/;
 // const numbers = [1, 2, 3, 4, 5];
 // console.log(numbers);
@@ -205,11 +207,13 @@
 
 // const newNumbers = numbers.map(multiply);
 // console.log(newNumbers);
+
 // /zadanie spread/;
 // const drinks = ["cola", "pepsi", "juice"];
 // const meals = ["spaghetti", "pizza", "sushi"];
 // const menu = [...drinks, ...meals];
 // console.log(menu);
+
 // /zadanie slice i splice/;
 // const numbers = [0, 0, 1, 1, 2, 2, 2];
 // const colors = ["red", "green", "blue", true, 123];
@@ -224,12 +228,14 @@
 // const newCars = cars.splice(2, 4, "test");
 // console.log(cars);
 // console.log(newCars);
+
 // /zadanie 1 z tablic/;
 // const letters = ["c", "d"];
 // letters.push("e", "f");
 // letters.unshift("a", "b");
 // console.log(letters);
 // console.log(letters.includes("c"));
+
 // /zadanie 2 z tablic/;
 // const numbers = [1, 2, 3, 4, 5];
 // const foods = ["sushi", "ice cream", "pizza", "apple pie", "cake"];
@@ -237,3 +243,51 @@
 // const menu2 = [...numbers, ...foods];
 // console.log(menu);
 // console.log(menu2);
+
+// /zadanie 3 z tablic/;
+// const numbers = [1, 5, 13, 26, 48];
+
+// function multiply(x) {
+// 	return x * 5;
+// }
+// const newNumbers = numbers.map(multiply);
+// console.log(newNumbers);
+
+// for (const number of newNumbers) {
+// 	if (number % 2 == 0) {
+// 		console.log(`Liczba parzysta: ${number}`);
+// 	} else {
+// 		console.log(`Liczba nieparzysta: ${number}`);
+// 	}
+// // }
+// /zadanie 4 z tablic/;
+// const colors = ["purple"];
+// colors.push("pink");
+// colors.unshift("green");
+// console.log(colors);
+
+// // for (let i = 0; i < colors.length; i++) {
+// // 	console.log(`Moj ulubiony kolor to: ${colors[i].toUpperCase()}`);
+// // }
+
+// for (const color of colors) {
+// 	console.log(`Moj ulubiony kolor to: ${color.toUpperCase()}`);
+// }
+
+// for (let i = 0; i < colors.length; i++) {
+// 	console.log(`${colors[i].charAt(0).toUpperCase()}` + `${colors[i].slice(1)}`);
+// }
+/zadanie 5 z tablic/;
+const cars = `Audi, Mercedes, BMW, Nissan, Dodge`;
+const newCars = cars.split(", ");
+console.log(newCars);
+
+newCars.length > 3 ? console.log(`Jest ok`) : console.log(`Nie jest ok`);
+
+if (newCars.includes("Audi")) {
+	newCars.push("nowa marka");
+	console.log(newCars);
+} else {
+	newCars.pop();
+	console.log(newCars);
+}
