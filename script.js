@@ -277,17 +277,24 @@
 // for (let i = 0; i < colors.length; i++) {
 // 	console.log(`${colors[i].charAt(0).toUpperCase()}` + `${colors[i].slice(1)}`);
 // }
-/zadanie 5 z tablic/;
-const cars = `Audi, Mercedes, BMW, Nissan, Dodge`;
-const newCars = cars.split(", ");
-console.log(newCars);
+// /zadanie 5 z tablic/;
+// const cars = `Audi, Mercedes, BMW, Nissan, Dodge`;
+// const newCars = cars.split(", ");
+// console.log(newCars);
 
-newCars.length > 3 ? console.log(`Jest ok`) : console.log(`Nie jest ok`);
+// newCars.length > 3 ? console.log(`Jest ok`) : console.log(`Nie jest ok`);
 
-if (newCars.includes("Audi")) {
-	newCars.push("nowa marka");
-	console.log(newCars);
-} else {
-	newCars.pop();
-	console.log(newCars);
+// if (newCars.includes("Audi")) {
+// 	newCars.push("nowa marka");
+// 	console.log(newCars);
+// } else {
+// 	newCars.pop();
+// 	console.log(newCars);
+// }
+
+/zadanie 1 funkcje/;
+function introduce(name, age) {
+	console.log(`Czesc mam na imie ${name} i mam ${age} lat`);
 }
+
+introduce("Paula", 21);
