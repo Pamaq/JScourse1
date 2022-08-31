@@ -344,20 +344,37 @@ const add = (x, y) => {
 	score = x + y
 	score % 2 ? === 0 evenNumber : oddNumber
 }*/
-/zadanie konwerter/;
-let celsius;
-let temp;
-function fahrenheit(temperature) {
-	celsius = temperature;
-	temp = celsius * 1.8 + 32;
-	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
-}
+// /zadanie konwerter/;
+// let celsius;
+// let temp;
+// function fahrenheit(temperature) {
+// 	celsius = temperature;
+// 	temp = celsius * 1.8 + 32;
+// 	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
+// }
 
-const fahrenheit2 = (temperature) => {
-	celsius = temperature;
-	temp = celsius * 1.8 + 32;
-	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
+// const fahrenheit2 = (temperature) => {
+// 	celsius = temperature;
+// 	temp = celsius * 1.8 + 32;
+// 	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
+// };
+
+// fahrenheit(34);
+// fahrenheit2(1);
+
+let num = 10;
+const numbers = [];
+for (let i = 0; i < num; i++) {
+	numbers.push(i);
+}
+console.log(numbers);
+
+const checkNumber = (number) => {
+	if (number % 3 === 0 && number !== 0) {
+		console.log(`X = ${number} jest podzielne przez 3`);
+	} else {
+		console.log(`X = ${number} nie jest podzielne przez 3`);
+	}
 };
 
-fahrenheit(34);
-fahrenheit2(1);
+numbers.forEach(checkNumber);
