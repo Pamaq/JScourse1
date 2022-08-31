@@ -292,9 +292,55 @@
 // 	console.log(newCars);
 // }
 
-/zadanie 1 funkcje/;
-function introduce(name, age) {
-	console.log(`Czesc mam na imie ${name} i mam ${age} lat`);
-}
+// /zadanie 1 funkcje/;
+// function introduce(name, age) {
+// 	console.log(`Czesc mam na imie ${name} i mam ${age} lat`);
+// }
 
-introduce("Paula", 21);
+// introduce("Paula", 21);
+
+// /zadanie 2 funkcje strzalkowe/;
+// const test1 = (age) => {
+// 	console.log(`Mam ${age} lat/a`);
+// };
+
+// test1(22);
+
+// const test2 = (animal, food) => {
+// 	console.log(
+// 		`My favorite animal is ${animal} and my favorite food is ${food}`
+// 	);
+// };
+
+// test2("zebra", "cherry pie");
+
+// const multiply = (num1, num2) => {
+// 	console.log(num1 * num2);
+// };
+
+// // multiply(3, 5);
+
+// const days = ["monday", "tuesday", "wednesday", "thursday"];
+// const days1 = days.forEach((day) => console.log(day));
+
+/zadanie 1 zakresy zmiennych funkcji/;
+let score;
+const evenNumber = () => console.log(`Liczba ${score} jest parzysta`);
+const oddNumber = () => console.log(`Liczba ${score} jest nieparzysta`);
+
+const add = (x, y) => {
+	score = x + y;
+
+	if (score % 2 === 0) {
+		evenNumber();
+	} else {
+		oddNumber();
+	}
+};
+add(4, 7);
+
+/*lub jako wyrazenie warunkowe
+const add = (x, y) => {
+	score = x + y
+	score % 2 ? === 0 evenNumber : oddNumber
+}*/
