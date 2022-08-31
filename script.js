@@ -323,24 +323,41 @@
 // const days = ["monday", "tuesday", "wednesday", "thursday"];
 // const days1 = days.forEach((day) => console.log(day));
 
-/zadanie 1 zakresy zmiennych funkcji/;
-let score;
-const evenNumber = () => console.log(`Liczba ${score} jest parzysta`);
-const oddNumber = () => console.log(`Liczba ${score} jest nieparzysta`);
+// /zadanie 1 zakresy zmiennych funkcji/;
+// let score;
+// const evenNumber = () => console.log(`Liczba ${score} jest parzysta`);
+// const oddNumber = () => console.log(`Liczba ${score} jest nieparzysta`);
 
-const add = (x, y) => {
-	score = x + y;
+// const add = (x, y) => {
+// 	score = x + y;
 
-	if (score % 2 === 0) {
-		evenNumber();
-	} else {
-		oddNumber();
-	}
-};
-add(4, 7);
+// 	if (score % 2 === 0) {
+// 		evenNumber();
+// 	} else {
+// 		oddNumber();
+// 	}
+// };
+// add(4, 7);
 
 /*lub jako wyrazenie warunkowe
 const add = (x, y) => {
 	score = x + y
 	score % 2 ? === 0 evenNumber : oddNumber
 }*/
+/zadanie konwerter/;
+let celsius;
+let temp;
+function fahrenheit(temperature) {
+	celsius = temperature;
+	temp = celsius * 1.8 + 32;
+	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
+}
+
+const fahrenheit2 = (temperature) => {
+	celsius = temperature;
+	temp = celsius * 1.8 + 32;
+	console.log(`Temperatura ${celsius}°C wynosi ${temp}°F.`);
+};
+
+fahrenheit(34);
+fahrenheit2(1);
