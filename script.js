@@ -383,12 +383,26 @@ const add = (x, y) => {
 // const testClasses = document.getElementsByClassName("test");
 // console.log(testClasses);
 
-/duże zadanie z pobierania elementów/;
-const heading = document.querySelector("h1");
-console.log(heading);
-const paragraphs = document.querySelectorAll("p");
-console.log(paragraphs);
-const testDiv = document.querySelector(".test");
-console.log(testDiv);
-const pInDiv = testDiv.querySelector("#test");
-console.log(pInDiv);
+// /duże zadanie z pobierania elementów/;
+// const heading = document.querySelector("h1");
+// console.log(heading);
+// const paragraphs = document.querySelectorAll("p");
+// console.log(paragraphs);
+// const testDiv = document.querySelector(".test");
+// console.log(testDiv);
+// const pInDiv = testDiv.querySelector("#test");
+// console.log(pInDiv);
+
+// /zadanie 1 tworzenie elementów/;
+// const ulList = document.createElement("ul");
+// const newLi = document.createElement("li");
+// newLi.textContent = "hello";
+// console.log(newLi);
+// document.body.appendChild(ulList);
+// ulList.appendChild(newLi);
+
+/zadanie 2 tworzenie elementow/;
+const selectDiv = document.querySelector("div");
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "hello";
+selectDiv.appendChild(newParagraph);
