@@ -362,19 +362,33 @@ const add = (x, y) => {
 // fahrenheit(34);
 // fahrenheit2(1);
 
-let num = 10;
-const numbers = [];
-for (let i = 0; i < num; i++) {
-	numbers.push(i);
-}
-console.log(numbers);
+// let num = 10;
+// const numbers = [];
+// for (let i = 0; i < num; i++) {
+// 	numbers.push(i);
+// }
+// console.log(numbers);
 
-const checkNumber = (number) => {
-	if (number % 3 === 0 && number !== 0) {
-		console.log(`X = ${number} jest podzielne przez 3`);
-	} else {
-		console.log(`X = ${number} nie jest podzielne przez 3`);
-	}
-};
+// const checkNumber = (number) => {
+// 	if (number % 3 === 0 && number !== 0) {
+// 		console.log(`X = ${number} jest podzielne przez 3`);
+// 	} else {
+// 		console.log(`X = ${number} nie jest podzielne przez 3`);
+// 	}
+// };
 
-numbers.forEach(checkNumber);
+// numbers.forEach(checkNumber);
+
+// /zadanie z pobierania elementów/;
+// const testClasses = document.getElementsByClassName("test");
+// console.log(testClasses);
+
+/duże zadanie z pobierania elementów/;
+const heading = document.querySelector("h1");
+console.log(heading);
+const paragraphs = document.querySelectorAll("p");
+console.log(paragraphs);
+const testDiv = document.querySelector(".test");
+console.log(testDiv);
+const pInDiv = testDiv.querySelector("#test");
+console.log(pInDiv);
