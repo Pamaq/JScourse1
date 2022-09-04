@@ -401,8 +401,12 @@ const add = (x, y) => {
 // document.body.appendChild(ulList);
 // ulList.appendChild(newLi);
 
-/zadanie 2 tworzenie elementow/;
-const selectDiv = document.querySelector("div");
-const newParagraph = document.createElement("p");
-newParagraph.textContent = "hello";
-selectDiv.appendChild(newParagraph);
+// /zadanie 2 tworzenie elementow/;
+// const selectDiv = document.querySelector("div");
+// const newParagraph = document.createElement("p");
+// newParagraph.textContent = "hello";
+// selectDiv.appendChild(newParagraph);
+
+/zadanie 1 z event listenerow/;
+const btn3 = document.querySelector(" .btn-3");
+btn3.addEventListener("dblclick", test());
