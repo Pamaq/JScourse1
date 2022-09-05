@@ -407,6 +407,13 @@ const add = (x, y) => {
 // newParagraph.textContent = "hello";
 // selectDiv.appendChild(newParagraph);
 
-/zadanie 1 z event listenerow/;
-const btn3 = document.querySelector(" .btn-3");
-btn3.addEventListener("dblclick", test());
+// /zadanie 1 z event listenerow/;
+// const btn3 = document.querySelector(" .btn-3");
+// btn3.addEventListener("dblclick", test());
+
+// /zadanie z delegacji zdarzeń 1/;
+// const newCircle = document.createElement("div");
+// const gold = document.querySelector(".gold");
+// newCircle.classList.add("circle", "purple");
+// gold.appendChild(newCircle);
+

@@ -1,3 +1,33 @@
 /* .test {
 	color: blue;
 } */
+.circle {
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.lime {
+	height: 500px;
+	width: 500px;
+	background-color: lime;
+}
+
+.blue {
+	width: 400px;
+	height: 400px;
+	background-color: royalblue;
+}
+
+.gold {
+	width: 250px;
+	height: 250px;
+	background-color: gold;
+}
+.purple {
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+}
