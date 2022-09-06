@@ -417,10 +417,32 @@ const add = (x, y) => {
 // newCircle.classList.add("circle", "purple");
 // gold.appendChild(newCircle);
 
-/zadanie z toggle/
-const toggleBtn = document.querySelector('.toggle')
-const text = document.querySelector('p')
-const toggleClass = ( ) => {
-	text.classList.toggle('test')
+// zadanie z toggle
+// const toggleBtn = document.querySelector(".toggle");
+// const text = document.querySelector("p");
+// // wybrano na czym chcemy pracowac pobierajac zmienne do js
+// const toggleClass = () => {//napisanie funkcji - nazwa, kod
+// 	text.classList.toggle("test");//daje i zabiera klasę 'test'
+// };
+// // okreslamy jakiej klasy ma dotyczyc toggle
+// toggleBtn.addEventListener("click", toggleClass);
+// //dodanie event listenera, określenie na co ma reagować i jak
+// //po kliknięciu w button paragraf zmienia się dzięki dodaniu lub odebraniu klasy test
+
+//zadanie z listą
+const ulList = document.createElement("ul");
+document.body.appendChild(ulList);
+const number = 10;
+
+for (let i = 1; i <= number; i++) {
+	let newEl = document.createElement("li");
+	newEl.textContent = i;
+	ulList.appendChild(newEl);
 }
-toggleBtn.addEventListener('click', toggleClass)
+
+const lastLi = ulList.querySelector("li:last-child");
+lastLi.textContent = "Jestem ostatnim elementem";
+lastLi.style.backgroundColor = "blue";
+lastLi.style.padding = "20px 40px";
+lastLi.style.fontSize = "48px";
+console.log(lastLi);
