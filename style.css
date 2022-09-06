@@ -1,7 +1,12 @@
 /* .test {
 	color: blue;
 } */
-.circle {
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* .circle {
 	border-radius: 50%;
 	position: absolute;
 	display: flex;
@@ -29,5 +34,39 @@
 .purple {
 	width: 100px;
 	height: 100px;
+	background-color: purple;
+} */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Courier New", Courier, monospace;
+}
+
+button {
+	font-size: 18px;
+	font-family: sans-serif;
+	margin: 20px;
+	border: 1px solid purple;
+	border-radius: 10px;
+	height: 35px;
+	width: 150px;
+}
+
+.toggle {
+	background-color: rgb(135, 30, 173);
+	color: white;
+}
+
+.test {
+	margin-top: 20px;
+	padding: 20px 40px;
+	border-radius: 8px;
+	background-color: rgb(193, 133, 133);
+	color: #333;
+}
+
+button:hover {
 	background-color: purple;
 }

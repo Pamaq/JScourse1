@@ -417,3 +417,10 @@ const add = (x, y) => {
 // newCircle.classList.add("circle", "purple");
 // gold.appendChild(newCircle);
 
+/zadanie z toggle/
+const toggleBtn = document.querySelector('.toggle')
+const text = document.querySelector('p')
+const toggleClass = ( ) => {
+	text.classList.toggle('test')
+}
+toggleBtn.addEventListener('click', toggleClass)
