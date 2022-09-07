@@ -430,19 +430,21 @@ const add = (x, y) => {
 // //po kliknięciu w button paragraf zmienia się dzięki dodaniu lub odebraniu klasy test
 
 //zadanie z listą
-const ulList = document.createElement("ul");
-document.body.appendChild(ulList);
-const number = 10;
+// const ulList = document.createElement("ul");
+// document.body.appendChild(ulList);
+// const number = 10;
 
-for (let i = 1; i <= number; i++) {
-	let newEl = document.createElement("li");
-	newEl.textContent = i;
-	ulList.appendChild(newEl);
-}
+// for (let i = 1; i <= number; i++) {
+// 	let newEl = document.createElement("li");
+// 	newEl.textContent = i;
+// 	ulList.appendChild(newEl);
+// }
 
-const lastLi = ulList.querySelector("li:last-child");
-lastLi.textContent = "Jestem ostatnim elementem";
-lastLi.style.backgroundColor = "blue";
-lastLi.style.padding = "20px 40px";
-lastLi.style.fontSize = "48px";
-console.log(lastLi);
+// const lastLi = ulList.querySelector("li:last-child");
+// lastLi.textContent = "Jestem ostatnim elementem";
+// lastLi.style.backgroundColor = "blue";
+// lastLi.style.padding = "20px 40px";
+// lastLi.style.fontSize = "48px";
+// console.log(lastLi);
+
+//zadanie z buttons
