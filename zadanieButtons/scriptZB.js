@@ -25,3 +25,4 @@ btn1.addEventListener("click", burger);
 btn2.addEventListener("click", toggleClass);
 square.addEventListener("mouseenter", color1);
 square.addEventListener("mouseout", color2);
+// alert("gitara siema");

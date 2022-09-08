@@ -447,4 +447,16 @@ const add = (x, y) => {
 // lastLi.style.fontSize = "48px";
 // console.log(lastLi);
 
-//zadanie z buttons
+//zadanie z atrybutami
+const newImg = document.querySelector("img");
+newImg.setAttribute(
+	"src",
+	"https://images.unsplash.com/photo-1595919303535-4481e02aad66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VycyUyMGluJTIwdmFzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+);
+newImg.setAttribute("alt", "Glass vase with flowers");
+
+const text = () => {
+	console.log("Przepraszam za spoznienie");
+};
+
+setTimeout(text, 2000);
