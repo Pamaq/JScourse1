@@ -463,15 +463,16 @@ const add = (x, y) => {
 
 // /zadanie - rozne umiejetnosci/;
 const elements = document.querySelectorAll("li");
+let number = 1;
 for (let i = 0; i < elements.length; i++) {
-	let number = i + 1;
 	let liChosen = elements[i];
 	liChosen.textContent = number;
 	liChosen.dataset.ID = number;
 	console.log(liChosen);
+	number++;
 }
 
 let thirdLi = document.querySelector("[data--i-d = '3']");
 console.log(thirdLi);
-const divEl = thirdLi.parentElement.parentElement;
+const divEl = thirdLi.closest(".wrapper");
 console.log(divEl);
